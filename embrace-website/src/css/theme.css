@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.bg-primary {
+  background-color: #3461FF !important;
+}
+
+.btn-type-1 {
+  color: white;
+  background-color: #3461FF;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.btn-type-1:hover {
+  background-color: #0128AF;
+  color: white;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}/*# sourceMappingURL=theme.css.map */
