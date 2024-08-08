@@ -1,0 +1,30 @@
+.font-93 {
+    font-size: 60px;
+    @media (min-width: 1024px) {
+        font-size: 80px;   
+    }
+    @media (min-width: 1200px) {
+        font-size: 93px;   
+    }
+    @media (max-width: 645px) {
+        font-size: 55px;
+    }
+}
+
+.widthControl {
+    width: 35%;
+    @media (min-width: 645px) and (max-width: 1024px) {
+        width: 40%;
+    }
+}
+
+.heroImage {
+    background-image: url('/public/images/hero-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    @media (max-width:768px) {
+        height: 50vmax;
+    }
+}
