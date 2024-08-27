@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
   return (
         <header>
-            <nav className="navbar navbar-expand-lg border border-bottom mb-3">
+            <nav className="navbar navbar-expand-lg border border-bottom">
                 <div className="container-lg">
                     <h1 className='m-0 p-0 navLogo'><a href="#">
                         <svg className='logoSvg' viewBox="0 0 144 32" fill="none" xmlns="http://www.w3.org/2000/svg">

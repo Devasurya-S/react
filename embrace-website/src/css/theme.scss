@@ -1,4 +1,5 @@
 $primary: #3461FF;
+$secondary: #FAFAFA;
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
@@ -8,6 +9,10 @@ body {
 
 .bg-primary {
     background-color: $primary !important;
+}
+
+.bg-secondary {
+    background-color: $secondary !important;
 }
 
 .btn-type-1 {
@@ -27,4 +32,15 @@ body {
 
 .open-sans{
     font-family: "Open Sans", sans-serif;
+}
+
+.hd-type-1 {
+    font-size: 36px;
+    @media (max-width: 576px) { // Small devices (≥576px)
+        font-size: 16px;
+    }
+
+    @media (max-width: 768px) { // Medium devices (≥768px)
+        font-size: 28px;
+    }
 }
