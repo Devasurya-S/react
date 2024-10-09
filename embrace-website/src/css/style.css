@@ -7,6 +7,10 @@ body {
   background-color: #3461FF !important;
 }
 
+.bg-secondary {
+  background-color: #FAFAFA !important;
+}
+
 .btn-type-1 {
   color: white;
   background-color: #3461FF;
@@ -26,10 +30,71 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.hd-type-1 {
+  font-size: 36px;
+}
+@media (max-width: 576px) {
+  .hd-type-1 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .hd-type-1 {
+    font-size: 28px;
+  }
+}
+
 .navLogo {
   line-height: 0;
 }
 
 .logoSvg {
   height: 32px;
+}
+
+.font-93 {
+  font-size: 93px;
+}
+@media (max-width: 1400px) {
+  .font-93 {
+    font-size: 80px;
+  }
+}
+@media (max-width: 991px) {
+  .font-93 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .font-93 {
+    font-size: 50px;
+  }
+}
+
+.widthControl {
+  width: 35%;
+}
+@media (min-width: 645px) and (max-width: 1024px) {
+  .widthControl {
+    width: 40%;
+  }
+}
+
+.heroImage {
+  background-image: url("/public/images/hero-image.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: 40vmax;
+}
+@media (max-width: 768px) {
+  .heroImage {
+    height: 40vmax;
+    background-position: center;
+  }
+}
+
+.company-logo {
+  width: 140px;
+  height: 48px;
 }/*# sourceMappingURL=style.css.map */
