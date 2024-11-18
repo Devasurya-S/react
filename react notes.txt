@@ -1,0 +1,13 @@
+React js
+
+14-10-2024
+-------------------------
+A component is just a junction in javascript that returns jsx.
+jsx - html that have javascript inside it.
+
+create componente -
+export function fn_name(arguments) {
+	return (
+	html
+)
+}
